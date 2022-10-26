@@ -8,7 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-const secretKey = "secretJWTIndraWijaya"
+const secretKey = "secretJWTzzz"
 
 func GenerateToken(id uint, email, username string) string {
 	claims := jwt.MapClaims{
